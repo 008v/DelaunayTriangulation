@@ -35,9 +35,7 @@ class ViewController: UIViewController {
     func generateVertices(maxX: UInt32, maxY: UInt32, count: UInt) -> [Vertex] {
         var vertices = [Vertex]()
         for _ in 0..<count {
-            let x = arc4random_uniform(maxX)
-            let y = arc4random_uniform(maxY)
-            vertices.append(Vertex.init(x: Double(x), y: Double(y)))
+            vertices.append(Vertex.random(maxX: Double(maxX), maxY: Double(maxY)))
         }
         return vertices
     }

@@ -9,9 +9,9 @@
 import UIKit
 
 open class Delaunay: NSObject {
-
+    
     override init() { }
-
+    
     fileprivate func supertriangle(_ vertices: [Vertex]) -> [Vertex] {
         
         var xmin = Double(Int32.max)
@@ -138,7 +138,7 @@ open class Delaunay: NSObject {
             let c = indices[i]
             
             edges.removeAll()
-
+            
             for j in (0..<open.count).reversed() {
                 
                 let dx = _vertices[c].x - open[j].x

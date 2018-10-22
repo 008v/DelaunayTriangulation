@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		240A906F2176DD7200FC29C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 240A906E2176DD7200FC29C6 /* README.md */; };
+		240A90BE217DAFF300FC29C6 /* Incircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A90BD217DAFF300FC29C6 /* Incircle.swift */; };
 		249AC3B4216F3A8D00948A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AC3B3216F3A8D00948A26 /* AppDelegate.swift */; };
 		249AC3B6216F3A8D00948A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AC3B5216F3A8D00948A26 /* ViewController.swift */; };
 		249AC3B9216F3A8D00948A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AC3B7216F3A8D00948A26 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		240A906E2176DD7200FC29C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		240A90BD217DAFF300FC29C6 /* Incircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Incircle.swift; sourceTree = "<group>"; };
 		249AC3B0216F3A8D00948A26 /* DelaunayTriangulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelaunayTriangulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249AC3B3216F3A8D00948A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		249AC3B5216F3A8D00948A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,10 +78,11 @@
 				249AC3BC216F3A9000948A26 /* LaunchScreen.storyboard */,
 				249AC3BF216F3A9000948A26 /* Info.plist */,
 				249AC3CD216F41C800948A26 /* Delaunay.swift */,
-				249AC3D12170758400948A26 /* Circumcircle.swift */,
 				249AC3C5216F3AFD00948A26 /* Triangle.swift */,
 				249AC3C7216F3B1100948A26 /* Edge.swift */,
 				249AC3CB216F3B9500948A26 /* Vertex.swift */,
+				249AC3D12170758400948A26 /* Circumcircle.swift */,
+				240A90BD217DAFF300FC29C6 /* Incircle.swift */,
 				249AC3CF2170725D00948A26 /* Hash.swift */,
 			);
 			path = DelaunayTriangulation;
@@ -162,6 +165,7 @@
 				249AC3D22170758400948A26 /* Circumcircle.swift in Sources */,
 				249AC3B6216F3A8D00948A26 /* ViewController.swift in Sources */,
 				249AC3C8216F3B1100948A26 /* Edge.swift in Sources */,
+				240A90BE217DAFF300FC29C6 /* Incircle.swift in Sources */,
 				249AC3CC216F3B9500948A26 /* Vertex.swift in Sources */,
 				249AC3B4216F3A8D00948A26 /* AppDelegate.swift in Sources */,
 				249AC3D02170725D00948A26 /* Hash.swift in Sources */,

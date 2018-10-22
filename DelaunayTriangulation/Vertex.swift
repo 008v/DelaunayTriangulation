@@ -37,4 +37,10 @@ extension Vertex {
     public func cgPoint() -> CGPoint {
         return CGPoint(x: x, y: y)
     }
+    
+    static func random(maxX: Double, maxY: Double) -> Vertex {
+        let x = Double(arc4random_uniform(UInt32(maxX)))
+        let y = Double(arc4random_uniform(UInt32(maxY)))
+        return Vertex(x: x, y: y)
+    }
 }
